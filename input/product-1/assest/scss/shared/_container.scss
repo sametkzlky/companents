@@ -1,0 +1,57 @@
+.container {
+    &_icon {
+      display: flex;
+      gap: 20px;
+      i {
+        opacity: 0.6;
+        cursor: pointer;
+        padding: 20px;
+        background-color: $white;
+        border-radius: 50%;
+        font-size: 35px;
+      }
+      .fa-instagram:hover {
+        background-color: $red;
+        color: $white;
+        transform: translateY(-4px);
+        transition: 0.5s;
+        animation: shake 0.25s;
+      }
+      .fa-facebook:hover {
+        background-color: $darkblue;
+        color: $white;
+        transform: translateY(-4px);
+        transition: 0.5s;
+        animation: shake 0.25s;
+      }
+      .fa-twitter:hover:hover {
+        background-color: $lightblue;
+        color: $white;
+        transform: translateY(-4px);
+        transition: 0.5s;
+        animation: shake 0.25s;
+      }
+      .fa-discord:hover {
+        background-color: $blue;
+        color: $white;
+        transform: translateY(-5px);
+        transition: 0.5s;
+        animation: shake 0.25s;
+      }
+    }
+  }
+  @keyframes shake {
+    10% {
+      transform: rotate(15deg);
+    }
+    20% {
+      transform: rotate(-15deg);
+    }
+    30% {
+      transform: rotate(15deg);
+    }
+    40% {
+      transform: rotate(-15deg);
+    }
+  }
+  

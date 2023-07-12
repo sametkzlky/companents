@@ -1,0 +1,12 @@
+@import "./scss/variables/index";
+@import "./scss/base/index";
+@import "./scss/components/index";
+@import "./scss/shared/index";
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: $gray;
+}

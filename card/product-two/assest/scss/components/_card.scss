@@ -1,0 +1,52 @@
+.card {
+    width: 340px;
+    height: 300px;
+    transition: all 0.5s;
+    box-shadow: $box-shadow;
+    text-align: center;
+    overflow: hidden;
+    background: $blue;
+    .card .header {   
+      border-radius: $border-s;
+  
+      .title {
+        font-size: $fs-m;
+        letter-spacing: $l-s;
+        font-weight: $fw-s;  
+        color: $gray;
+      }
+    }
+  
+    .content {
+      display: block;
+      text-align: center;
+      color: #212121;
+      margin: 0 18px;
+  
+      .btn {
+       background-color: $blue ;
+        padding: $fs-xs;
+        width: 150px;
+        color: $white;
+        border: none;
+        font-size: $fs-m;
+        letter-spacing: $l-s;
+        cursor: pointer;
+        box-shadow: $box-shadow;
+        margin-top: $fs-l;
+      }
+    }
+  }
+  .btn:hover {   
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  
+  .card:hover .card .header .title {
+    padding: 0;
+  }
+  .card:hover {
+    height: 455px;
+    background: linear-gradient(360deg, #edededc5 30%, rgb(122, 151, 247) 70%);
+  }
+  

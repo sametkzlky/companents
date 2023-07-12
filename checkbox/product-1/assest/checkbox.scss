@@ -1,0 +1,13 @@
+@import "./scss/variables/index";
+@import "./scss/base/index";
+@import "./scss/components/index";
+@import "./scss/shared/index";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: lightblue;
+}
+

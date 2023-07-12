@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  max-width: 600px;
+  gap: 10px;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+.section .scroll {
+  scroll-snap-align: start;
+}
+.section .scroll img {
+  height: 400px;
+  width: 600px;
+}/*# sourceMappingURL=style.css.map */

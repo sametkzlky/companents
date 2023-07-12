@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(181, 214, 33);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_icon {
+  display: flex;
+  gap: 20px;
+}
+.container_icon i {
+  opacity: 0.6;
+  cursor: pointer;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 35px;
+}
+.container_icon .fa-instagram:hover {
+  background-color: rgb(255, 23, 23);
+  color: white;
+  transform: translateY(-4px);
+  transition: 0.5s;
+  animation: shake 0.25s;
+}
+.container_icon .fa-facebook:hover {
+  background-color: #3b5998;
+  color: white;
+  transform: translateY(-4px);
+  transition: 0.5s;
+  animation: shake 0.25s;
+}
+.container_icon .fa-twitter:hover:hover {
+  background-color: #00acee;
+  color: white;
+  transform: translateY(-4px);
+  transition: 0.5s;
+  animation: shake 0.25s;
+}
+.container_icon .fa-discord:hover {
+  background-color: #7289d9;
+  color: white;
+  transform: translateY(-5px);
+  transition: 0.5s;
+  animation: shake 0.25s;
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+}/*# sourceMappingURL=style.css.map */

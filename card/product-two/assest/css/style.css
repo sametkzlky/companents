@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  width: 340px;
+  height: 300px;
+  transition: all 0.5s;
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11);
+  text-align: center;
+  overflow: hidden;
+  background: rgb(129, 162, 211);
+}
+.card .card .header {
+  border-radius: 8px;
+}
+.card .card .header .title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: rgba(237, 237, 237, 0.7725490196);
+}
+.card .content {
+  display: block;
+  text-align: center;
+  color: #212121;
+  margin: 0 18px;
+}
+.card .content .btn {
+  background-color: rgb(129, 162, 211);
+  padding: 12px;
+  width: 150px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11);
+  margin-top: 18px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.card:hover .card .header .title {
+  padding: 0;
+}
+
+.card:hover {
+  height: 455px;
+  background: linear-gradient(360deg, rgba(237, 237, 237, 0.7725490196) 30%, rgb(122, 151, 247) 70%);
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgba(237, 237, 237, 0.7725490196);
+}/*# sourceMappingURL=style.css.map */
